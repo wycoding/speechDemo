@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context="com.example.speechdemo.MainActivity">
+
+    <EditText
+        android:id="@+id/result"
+        android:background="@android:drawable/editbox_background"
+        android:maxLines="7"
+        android:gravity="left|top"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"/>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btn_wenben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wenben"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="26dp"/>
+        <Button
+            android:id="@+id/btn_yuyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yuyin"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="26dp"/>
+    </TableRow>
+</TableLayout>

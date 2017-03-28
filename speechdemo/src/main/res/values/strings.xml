@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpeechDemo</string>
+    <string name="wenben">文本</string>
+    <string name="yuyin">语音</string>
+</resources>
